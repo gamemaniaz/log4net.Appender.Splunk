@@ -8,8 +8,8 @@ namespace log4net.Appender.Splunk.Test.Unit
 {
     public class LoggingTests
     {
-        private const string ServerUrl             = "https://localhost:8088";
-        private const string Token                 = "1a2f0c1b-4fb0-478b-bcb9-179098200a0a";
+        private const string ServerUrl             = "{INSERT_SPLUNK_HOST}";
+        private const string Token                 = "{INSERT_SPLUNK_HEC_TOKEN}";
         private const int RetriesOnError           = 0;
         private const string ConversionPattern     = "%message";
         private const bool IgnoreCertificateErrors = true;
